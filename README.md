@@ -37,7 +37,8 @@ Key Insights
 3. Feature engineering significantly improved model stability and reduced overfitting
 
 
-***Conclusion***
+***🚀Conclusion***
+
 The overfitting analysis indicates that the XGBoost model generalizes well. The difference between training RMSE and validation RMSE is negligible, suggesting that the model is not memorizing the training data and is able to capture the underlying patterns effectively. Interestingly, the training error is slightly higher than the validation error, which can occur when the learning rate is low, the training data contains more noise than the validation subset, and/or regularization parameters (e.g., min_child_weight, subsample, colsample_bytree) encourage smoother decision trees and reduce variance.
 
 
